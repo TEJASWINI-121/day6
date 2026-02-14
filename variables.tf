@@ -19,7 +19,7 @@ variable "ami_id" {
 
 variable "existing_key_pair_name" {
   type    = string
-  default = "devops"
+  default = "key"
 }
 
 variable "allowed_ssh_cidr" {
